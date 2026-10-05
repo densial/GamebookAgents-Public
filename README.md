@@ -56,3 +56,6 @@ Run the production pipeline:
 ```bash
 dotnet run
 ```
+## Local Run
+
+cp gamebooksettings.example.json gamebooksettings.json
