@@ -2,6 +2,8 @@
 
 A .NET 10 gamebook-production runner using Microsoft Agent Framework and local models served by LM Studio. Glimmer performs orchestration and generation; Nomic performs embeddings for the local reference-material search.
 
+This public repository contains a runnable early vertical slice of a larger gamebook-production pipeline. It includes book-to-chapter planning, chapter-to-sequence planning and an independent verification stage. Later production prompts and unpublished book content are kept private.
+
 ## LM Studio setup
 
 Load these models and start LM Studio's local server:
