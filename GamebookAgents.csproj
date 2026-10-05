@@ -20,25 +20,12 @@
 
   <ItemGroup>
     <None Remove="the-bell-beneath-greyfen\BOOK_CONCEPT.md" />
-    <Content Include="builder\.DS_Store" />
-    <Content Include="builder\prompts\.DS_Store" />
     <Content Include="the-bell-beneath-greyfen\BOOK_CONCEPT.md">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Remove="prompts\012-book-to-chapter.md" />
     <None Remove="prompts\022-chapter-to-sequences.md" />
     <None Remove="prompts\023-verify-chapter-sequence-architecture.md" />
-    <None Remove="prompts\032-sequence-to-sequence-plan-topology-selection.md" />
-    <None Remove="prompts\033-verify-sequence-plan-topology-selection.md" />
-    <None Remove="prompts\034-adjudicate-canon-and-persistent-tags.md" />
-    <None Remove="prompts\042-sequence-mechanics.md" />
-    <None Remove="prompts\052-sequence-prose.md" />
-    <None Remove="prompts\053-editorial-player-review.md" />
-    <None Remove="prompts\062-assemble-chapter.md" />
-    <None Remove="prompts\063-assemble-book.md" />
-    <None Remove="prompts\072-generate-book-specific-how-to-play.md" />
-    <None Remove="prompts\082-generate-book-specific-pregens.md" />
-    <None Remove="prompts\092-generate-book-specific-quick-reference.md" />
   </ItemGroup>
 
 </Project>
