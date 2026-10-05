@@ -1,0 +1,16 @@
+{
+  "lmStudioBaseUrl": "http://127.0.0.1:1234/v1/",
+  "generationModel": "unsloth/muse-glimmer-30b",
+  "embeddingModel": "text-embedding-nomic-embed-text-v1.5",
+  "embeddingRequestTimeoutSeconds": 120,
+  "rag": {
+    "indexPath": ".rag/reference-index.json",
+    "chunkSizeWords": 350,
+    "chunkOverlapWords": 60,
+    "embeddingBatchSize": 24,
+    "defaultTopK": 6,
+    "referenceDocuments": [
+      "builder/source/SRD_CC_v5.2.1.pdf"
+    ]
+  }
+}
