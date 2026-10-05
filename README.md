@@ -49,15 +49,13 @@ dotnet run -- rag-self-test
 
 ## Agent tools and sessions
 
-`SearchReferenceMaterial` is registered on the orchestration agent and on each production-prompt child agent. Agents use it for focused questions about large indexed sources. Known small authoritative files—production prompts, briefs, specifications, validation rules, and plans—continue to use direct file reading.
+`SearchReferenceMaterial` is registered on each production-prompt child agent. Agents use it for focused questions about large indexed sources. Known small authoritative files—production prompts, briefs, specifications, validation rules, and plans—continue to use direct file reading.
 
 `RunPrompt` starts a new Glimmer agent and session for one production prompt. Configured large references passed as inputs are represented by a retrieval instruction rather than copied into the model context. The existing one-artifact write guard is shared with the child, and the top-level pipeline also creates a fresh orchestration session for every artifact.
 
-Run the production pipeline:
+Copy the example configuration before first run:
 
 ```bash
+cp gamebooksettings.example.json gamebooksettings.json
 dotnet run
 ```
-## Local Run
-
-cp gamebooksettings.example.json gamebooksettings.json
